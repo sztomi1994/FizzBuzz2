@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: FizzBuzzerTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in FizzBuzzerTest
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in FizzBuzzerTest
 executeShouldReturnBuzzIfTheNumberContains3(FizzBuzzerTest)  Time elapsed: 0 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Fizz]> but was:<[]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
@@ -13,18 +13,6 @@ org.junit.ComparisonFailure: expected:<[Buzz]> but was:<[]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at FizzBuzzerTest.executeShouldReturnBuzzIfTheNumberContains5(FizzBuzzerTest.java:38)
-
-executeShouldReturnBuzzIfTheNumberContains7(FizzBuzzerTest)  Time elapsed: 0 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Wizz]> but was:<[]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at FizzBuzzerTest.executeShouldReturnBuzzIfTheNumberContains7(FizzBuzzerTest.java:44)
-
-executeShouldReturnBuzzIfTheNumberDividable7(FizzBuzzerTest)  Time elapsed: 0 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Wizz]> but was:<[]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at FizzBuzzerTest.executeShouldReturnBuzzIfTheNumberDividable7(FizzBuzzerTest.java:26)
 
 executeShouldReturnTheSameNumberIfNoOtherRequirementIsFulfilled(FizzBuzzerTest)  Time elapsed: 0 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[1]> but was:<[]>

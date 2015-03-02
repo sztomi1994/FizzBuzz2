@@ -12,6 +12,10 @@ package com.mycompany.fizzbuzz2;
 public class FizzBuzzer {
     public String execute(int number) {
     String message = "";
+    if (number%7==0){
+     message += "Wizz";
+    }
+    
     return message;
     }
 }
