@@ -24,7 +24,9 @@ public class FizzBuzzer {
         if (Integer.toString(number).contains("5")) {
             message += "Buzz";
         }
-
+        if (message.isEmpty()) {
+            message+=number;
+        }
         return message;
     }
 }
