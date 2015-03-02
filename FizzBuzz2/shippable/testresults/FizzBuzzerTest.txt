@@ -1,13 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: FizzBuzzerTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE! - in FizzBuzzerTest
-executeShouldReturnBuzzIfTheNumberContains5(FizzBuzzerTest)  Time elapsed: 0 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Buzz]> but was:<[]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at FizzBuzzerTest.executeShouldReturnBuzzIfTheNumberContains5(FizzBuzzerTest.java:38)
-
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE! - in FizzBuzzerTest
 executeShouldReturnTheSameNumberIfNoOtherRequirementIsFulfilled(FizzBuzzerTest)  Time elapsed: 0 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[1]> but was:<[]>
 	at org.junit.Assert.assertEquals(Assert.java:115)

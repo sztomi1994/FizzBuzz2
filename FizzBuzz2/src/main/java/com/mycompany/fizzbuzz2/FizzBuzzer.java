@@ -10,16 +10,21 @@ package com.mycompany.fizzbuzz2;
  * @author Toooooomi
  */
 public class FizzBuzzer {
+
     public String execute(int number) {
-    String message = "";
-    if (number%7==0){
-     message += "Wizz";
-    }
-    
-     if (Integer.toString(number).contains("3")) {
+        String message = "";
+        if (number % 7 == 0) {
+            message += "Wizz";
+        }
+
+        if (Integer.toString(number).contains("3")) {
             message += "Fizz";
         }
-    
-    return message;
+
+        if (Integer.toString(number).contains("5")) {
+            message += "Buzz";
+        }
+
+        return message;
     }
 }
