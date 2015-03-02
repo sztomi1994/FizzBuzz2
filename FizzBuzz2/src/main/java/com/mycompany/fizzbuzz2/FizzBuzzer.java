@@ -16,6 +16,10 @@ public class FizzBuzzer {
      message += "Wizz";
     }
     
+     if (Integer.toString(number).contains("3")) {
+            message += "Fizz";
+        }
+    
     return message;
     }
 }
