@@ -13,7 +13,7 @@ public class FizzBuzzer {
 
     public String execute(int number) {
         String message = "";
-        if (number % 7 == 0) {
+        if (Integer.toString(number).contains("7") || number % 7 == 0) {
             message += "Wizz";
         }
 
